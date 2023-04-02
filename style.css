@@ -16,6 +16,10 @@ body {
   font-family: "Kobe1.1 Black";
   src: url(kobe-font/kobe11-black.ttf);
 }
+@font-face {
+  font-family: "Kobe1.1 Bold";
+  src: url(kobe-font/kobe11-bold.ttf);
+}
 
  #bhaha{
     font-family: "Kobe1.1 Bold",sans-serif;
