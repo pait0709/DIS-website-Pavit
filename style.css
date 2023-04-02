@@ -1,0 +1,274 @@
+body {
+    background-color: #efeee7;
+
+ 
+  }
+  #Fontu{
+    font-family: "Kobe1.1 Black",sans-serif;
+    color: #013706;
+    font-size: 20px;
+  }
+
+ #bhaha{
+    font-family: "Kobe1.1 Bold",sans-serif;
+    color: #ff3801;
+    font-size: 42.5px;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; 
+ }
+ #bhaha:hover{
+    font-family: "Kobe1.1 Bold",sans-serif;
+    color: #013706;
+    font-size: 42.5px;
+ }
+ #ll{
+    font-family: "Kobe1.1";
+ }
+  #bruh{
+    font-family: sans-serif;
+    color: #ff3801;
+    font-size: 27.5px;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    
+  }
+  #bruh:hover{
+    font-family: sans-serif;
+    color: #a58727;
+    font-size: 27.5px;
+  }
+
+  /* This box class is purely used for explaining how the bootstrap grid system works. */
+  .box {
+ 
+    font-family: "Kobe1.1",sans-serif;
+    color: #ff3801;
+    font-size: 1.08rem;
+    margin-bottom: 100px;
+  }
+  
+  .box1 {
+    min-height: 50px;
+    font-size: 20px;
+  }
+  .row-with-border {
+    border: 45px solid #013706;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Kobe1.1",sans-serif;
+    color: #a58727;
+    font-size: 15px;
+  }
+  
+  .row-with-border *,
+  .row-with-border *::before,
+  .row-with-border *::after {
+    box-sizing: border-box;
+  }
+  .row-with-border-2 {
+    border: 45px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Kobe1.1",sans-serif;
+    color: #a58727;
+    font-size: 15px;
+  }
+  
+  .row-with-border-2 *,
+  .row-with-border-2 *::before,
+  .row-with-border-2 *::after {
+    box-sizing: border-box;
+  }
+  .hghg{
+    opacity: 0;
+    filter: blur (5px);
+    transform: translateX(-100%);
+    transition: all 1.75s;
+    }
+    .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    }
+.aisakya{
+    opacity: 0;
+    filter: blur (5px);
+    transition: all 4s;
+}
+.matmaan{
+    opacity: 1;
+    filter: blur(0);
+}
+#gallery {
+    height: 75vmax;
+    width: 95vmax;
+    overflow: hidden;
+    position: relative;
+    cursor: crosshair;
+    }
+.block {
+    position:absolute;
+    width: 15%;
+    height: 20%;
+    z-index: 1;
+    background-size: contain;
+    transition: transform .2s;
+    }
+    .block:hover {
+    z-index: 2;
+    transform: scale(2.5);
+    }
+
+    .block:nth-child(1) {
+    top: 18%;
+    left: 81%;
+    object-fit: contain;
+    background: url("assets/d1.jpeg") no-repeat 50% 50%;
+    background-size: contain;
+    }
+    .block:nth-child(2) {
+        top: 6%;
+        left: 10%;
+        background: url("assets/d2.jpeg") no-repeat 50% 50%;
+        background-size: contain;
+        }
+        .block:nth-child(3) {
+          top: 42%;
+          left: 3%;
+          background: url("assets/d3.jpeg") no-repeat 50% 50%;
+          background-size: contain;
+          }
+        .block:nth-child(4) {
+            top: 63%;
+            left: 47%;
+            background: url("assets/d4.jpeg") no-repeat 50% 50%;
+            background-size: contain;
+        }
+            .block:nth-child(5) {
+              top: 75%;
+              left: 33%;
+              background: url("assets/d5.jpeg") no-repeat 50% 50%;
+              background-size: contain;
+              }
+              .block:nth-child(6) {
+                top: 46%;
+                left: 81%;
+                background: url("assets/d6.jpeg") no-repeat 50% 50%;
+                background-size: contain;
+                }
+                .block:nth-child(7) {
+                  top: 63%;
+                  left: 10%;
+                  background: url("assets/d7.jpeg") no-repeat 50% 50%;
+                  background-size: contain;
+                  }
+                  .block:nth-child(8) {
+                    top: 35%;
+                    left: 3%;
+                    background: url("assets/d8.jpeg") no-repeat 50% 50%;
+                    background-size: contain;
+                    }
+                    .block:nth-child(9) {
+                      top: 19%;
+                      left: 47%;
+                      background: url("assets/d9.jpeg") no-repeat 50% 50%;
+                      background-size: contain;
+                      }
+                      .block:nth-child(10) {
+                        top: 58%;
+                        left: 33%;
+                        background: url("assets/d10.jpeg") no-repeat 50% 50%;
+                        background-size: contain;
+                        }.block:nth-child(11) {
+                          top: 42%;
+                          left: 59%;
+                          background: url("assets/d11.jpeg") no-repeat 50% 50%;
+                          background-size: contain;
+                          }.block:nth-child(12) {
+                            top: 57%;
+                            left: 86%;
+                            background: url("assets/d12.jpeg") no-repeat 50% 50%;
+                            background-size: contain;
+                            }
+                          .block:nth-child(13) {
+                            top: 25%;
+                            left: 26%;
+                            background: url("assets/d13.jpeg") no-repeat 50% 50%;
+                            background-size: contain;
+                            }.block:nth-child(14) {
+                              top: 45%;
+                              left: 14%;
+                              background: url("assets/d14.jpeg") no-repeat 50% 50%;
+                              background-size: contain;
+                              }
+                            .block:nth-child(15) {
+                              top: 1%;
+                              left: 87%;
+                              background: url("assets/d15.jpeg") no-repeat 50% 50%;
+                              background-size: contain;
+                              }
+                            .block:nth-child(16) {
+                              top: 30%;
+                              left: 61%;
+                              background: url("assets/d16.jpeg") no-repeat 50% 50%;
+                              background-size: contain;
+                              }
+                              .block:nth-child(17) {
+                                top: 27%;
+                                left: 39%;
+                                background: url("assets/d17.jpeg") no-repeat 50% 50%;
+                                background-size: contain;
+                                }
+                                .block:nth-child(18) {
+                                  top: 7%;
+                                  left: 59%;
+                                  background: url("assets/d18.jpeg") no-repeat 50% 50%;
+                                  background-size: contain;
+                                  }
+                                  .block:nth-child(19) {
+                                    top: 74%;
+                                    left: 44%;
+                                    background: url("assets/d19.jpeg") no-repeat 50% 50%;
+                                    background-size: contain;
+                                    }
+                                    .block:nth-child(20) {
+                                      top: 27%;
+                                      left: 69%;
+                                      background: url("assets/d20.jpeg") no-repeat 50% 50%;
+                                      background-size: contain;
+                                      }
+                                      .block:nth-child(21) {
+                                        top: 20%;
+                                        left: 65%;
+                                        background: url("assets/d21.jpeg") no-repeat 50% 50%;
+                                        background-size: contain;
+                                        }
+                                        .block:nth-child(22) {
+                                          top: 0%;
+                                          left: 47%;
+                                          background: url("assets/d22.jpeg") no-repeat 50% 50%;
+                                          background-size: contain;
+                                          }
+                                          .block:nth-child(23) {
+                                            top: 67%;
+                                            left: 25%;
+                                            background: url("assets/d23.jpeg") no-repeat 50% 50%;
+                                            background-size: contain;
+                                            }
+                                            .block:nth-child(24) {
+                                              top: 64%;
+                                              left: 67%;
+                                              background: url("assets/d24.jpeg") no-repeat 50% 50%;
+                                              background-size: contain;
+                                              }
+                                              .block:nth-child(25) {
+                                                top: 74%;
+                                                left: 37%;
+                                                background: url("assets/d25.jpeg") no-repeat 50% 50%;
+                                                background-size: contain;
+                                                }
+                    
+        #Fant{
+          font-family: "Kobe1.1",sans-serif;
+          color: #ff3801;
+      }

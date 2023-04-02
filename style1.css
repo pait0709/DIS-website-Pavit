@@ -1,0 +1,72 @@
+body {
+    background-color: #efeee7;
+
+ 
+  }
+  #Fontu{
+    font-family: "Kobe1.1 Black",sans-serif;
+    color: #013706;
+    font-size: 20px;
+  }
+#Fant{
+    font-family: "Kobe1.1",sans-serif;
+    color: #ff3801;
+}
+ #bhaha{
+    font-family: "Kobe1.1 Bold",sans-serif;
+    color: #ff3801;
+    font-size: 42.5px;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; 
+ }
+ #bhaha:hover{
+    font-family: "Kobe1.1 Bold",sans-serif;
+    color: #013706;
+    font-size: 42.5px;
+ }
+ #ll{
+    font-family: "Kobe1.1";
+ }
+  #bruh{
+    font-family: sans-serif;
+    color: #ff3801;
+    font-size: 27.5px;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    
+  }
+  #bruh:hover{
+    font-family: sans-serif;
+    color: #a58727;
+    font-size: 27.5px;
+  }
+
+  .row-with-border {
+    border: 45px solid #013706;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Kobe1.1",sans-serif;
+    color: #a58727;
+    font-size: 15px;
+  }
+  
+  .row-with-border *,
+  .row-with-border *::before,
+  .row-with-border *::after {
+    box-sizing: border-box;
+  }
+  .row-with-border-2 {
+    border: 45px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Kobe1.1",sans-serif;
+    color: #a58727;
+    font-size: 15px;
+  }
+  
+  .row-with-border-2 *,
+  .row-with-border-2 *::before,
+  .row-with-border-2 *::after {
+    box-sizing: border-box;
+  }
+ 
