@@ -8,6 +8,14 @@ body {
     color: #013706;
     font-size: 20px;
   }
+@font-face {
+  font-family: "Kobe1.1";
+  src: url(kobe-font/kobe11-regular.ttf);
+}
+@font-face {
+  font-family: "Kobe1.1 Black";
+  src: url(kobe-font/kobe11-black.ttf);
+}
 
  #bhaha{
     font-family: "Kobe1.1 Bold",sans-serif;
